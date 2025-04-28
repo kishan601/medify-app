@@ -42,7 +42,7 @@ export default function SearchHospital() {
       }
     };
 
-    if (formData.state != "") {
+    if (formData.state !== "") {
       fetchCities();
     }
   }, [formData.state]);
@@ -65,7 +65,7 @@ export default function SearchHospital() {
       onSubmit={handleSubmit}
       sx={{
         display: "flex",
-        gap: 4,
+        gap: 1,
         justifyContent: "space-between",
         flexDirection: { xs: "column", md: "row" },
       }}
@@ -119,6 +119,7 @@ export default function SearchHospital() {
       </Select>
 
       <Button
+        id="searchBtn"
         type="submit"
         variant="contained"
         size="large"

@@ -40,17 +40,19 @@ export default function Home() {
         </Container>
       </Box>
 
-      <Container maxWidth="xl">
-        <Stack spacing={12}>
-          <Specialization />
-          <Specialists />
-          <Offers />
-          <PatientCaring />
-          <OurFamilies />
-          <Blogs />
-          <FAQs />
-        </Stack>
-      </Container>
+      <Offers />
+
+      <Specialization />
+
+      <Specialists />
+
+      <PatientCaring />
+
+      <Blogs />
+
+      <OurFamilies />
+
+      <FAQs />
     </Box>
   );
 }
