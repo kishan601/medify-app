@@ -25,7 +25,6 @@ export default function HeroSlider() {
                         component={'img'}
                         src={img}
                         width={{ xs: 1, md: "50%" }}
-                        alt="Medical professional"
                     />
                 </Stack>
             </SwiperSlide>
